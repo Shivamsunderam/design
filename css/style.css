@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open Sans:300,400,500,600,700');
+
+
+
+
+
+nav.navbar{
+	background-color:#ffffff;
+	border:none;
+	border-radius: 0;
+	padding-top:1%;padding-bottom: 1%;
+	padding-left: 3%;padding-right: 3%;
+	color: #404040;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	margin-right: 150px;
+	margin-left: 150px;
+	margin: 0px;
+	border-bottom: 2px solid #F4F4F4;
+}
+.navbar-brand{
+	font-weight: 700;
+}
+#main{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	
+	background-color: #ffffff;
+	padding-bottom: 7%;
+}
+.heading{
+	padding-top: 6%;
+	padding-bottom: 8%;
+}
+
+.heading h1{
+	font-size: 30pt;
+	letter-spacing: o.2px;
+	font-weight: 600;;
+	color: #373D42;
+}
+
+.heading h3{
+	padding-top: 2%;
+	margin-left: 19%;
+	margin-right: 19%;
+	font-size: 15.5pt;
+	letter-spacing: 0.4px;
+	font-weight: 300;
+	line-height: 150%;
+	color: #4F4F4F;
+}
+
+
+
+
+
+
+/* For Box elements */
+
+
+.projectList{
+	padding:3%;
+}
+
+
+.box{
+	background-color:#ffffff;
+	padding: 0;
+	border-radius: 0%;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-transition: background-color 0.5s ease-out;
+  	-moz-transition: background-color 0.5s ease-out;
+  	-o-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+
+img{
+	width: 100%;
+	transform: scale(1);
+	-webkit-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  	-moz-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  	-o-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+	transition: transform 0.5s ease, opacity 0.5s ease-out;
+}
+
+
+
+.box_text h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13pt;
+	color: green;
+	font-weight: 550;
+	line-height: 90%;
+    padding-top:3%;
+	letter-spacing: 0px;
+}
+
+
+
+.box_text h5{
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 0%;
+	font-size: 11.2pt;
+	letter-spacing: 0px;
+	font-weight: 400;
+	color: #92A1AE;
+	padding-bottom:5%;
+}
+
+
+
+img.project:hover{
+	transform: scale(1.2);
+	opacity: 0.3;
+}
+
+.box:hover{
+	background-color: #e74739;
+}
+
+
+
+
+
+
+/* About Page */
+
+h2.heading2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding-top: 6%;
+	padding-bottom: 5%;
+}
+
+.profilePic{
+	border-radius: 4%;
+	padding-left:3%;
+}
+.profilePic img{
+	border:solid;
+	border-color: #ffffff;
+	border-width:0.2vw;
+	border-radius: 0%;
+}
+.written{
+	padding-left:3%;
+	padding-right: 3%;
+}
+p.aboutMe{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	color: #6E6E6E;
+	line-height: 165%;
+	font-size: 18px;
+
+}
+
+
+
+/* Footer */
+
+h4.footer2{
+	padding-top: 10%;
+font-family: 'Open Sans', sans-serif;
+line-height: 150%;
+	font-weight: 400;
+	color: #7C8A96;
+	font-size: 16px;
+
+}
+
+
+
+
+
+/* Footer_In Projects */
+
+
+footer{
+	border-top: 0.5px solid #ECECEC;
+	padding-top:2.5%;
+	padding-bottom:4%;
+	margin-right: 320px;
+    margin-left: 320px;
+
+
+}
+
+
+
+
+
+.footer-text {
+	margin: 1%;
+	font-family: 'Open Sans', sans-serif;
+    line-height: 300%;
+	font-weight: 400;
+	
+	
+}
+
+
+.sentence {
+	font-size: 15px;
+	color: #7C8A96;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 2%;
+	line-height: 240%;
+}
+
+.sentence:hover{
+	color: Red !important;
+}
+
+
+
+.footer-icons i:hover{
+	color: #04081A;
+}
+
+
+
+
+
+/* Responsive */
+
+
+@media (max-width: 768px)
+ {
+	nav.navbar{
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+.heading h1{
+	margin-left: 6%;
+	margin-right: 6%;
+	font-size: 20pt;
+}
+
+.heading h3{
+	margin-left: 6%;
+	margin-right: 6%;
+	font-weight: 400;
+	color: #6E6E6E;
+	line-height: 165%;
+	font-size: 18px;
+}
+
+	.box{
+	width: 92%;
+	align-self: center;
+	margin-left:4%;
+	margin-top:2%;
+}
+
+.box_text h4{
+	margin-left:4%;
+	font-size: 14pt;
+}
+
+
+
+.box_text h5{
+	margin-left :4%;
+}
+
+	.profilePic{
+		text-align: center;
+	}
+	.profilePic img{
+		width: 80%;
+	}
+ 	p.aboutMe{
+ 		padding-top:6%;
+ 		margin:6%;
+ 	}
+
+ h4.footer2{
+ 	padding-top: 4%;
+	padding-right: 6%;
+ }
+	.heading{
+		text-align: left;
+	}
+
+  footer{
+	padding-bottom:6%;
+	margin-right: 6%;
+    margin-left: 6%;
+
+
+   }
+
+	.footer-text {
+	margin: 0%;
+	text-align: center;
+	
+}
+
+
+.sentence {
+	font-size: 13px;
+	color: #7C8A96;
+	margin-right: 10px;
+	margin-bottom: 0%;
+	line-height: 190%;
+}
+ }
+
+
+
+
+
+
+/* For Native text documentation */
+	
+#projectPage
+{
+	background: #f6f6f6;
+}
+.projectImg{
+	box-shadow: 0 0px 4px 0 #f6f6f6;
+	background: #ffffff;
+}
+ .projectImg img{
+ 	width: 100%;	
+ }
+
+  .projectImg h4{
+    margin-left:6%;
+    margin-right:10%;
+    font-family: 'Lora', serif;
+	font-weight: 400;
+	color: #5A5A5A;
+	font-size: 18px;
+	line-height: 200%;
+ }
+
+
+   .projectImg h3{
+    margin-left:6%;
+    margin-right:6%;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #5A5A5A;
+	font-size: 22px;
+	line-height: 200%;
+ }
+
+
+  .projectImg h5{
+    margin-left: 4%;
+    margin-bottom: 5%;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #5A5A5A;
+	font-size: 12px;
+	line-height: 200%;
+	font-style: italic;
+ }
+
+
+
+
+
+
+
+
+/* For Sprinklr Project */
+img.animated-gif{
+  width: 240px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* For Sprinklr Project */
+
+
+
+
+
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

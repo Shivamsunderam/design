@@ -45,7 +45,7 @@ nav.navbar{
 	padding-top: 2%;
 	margin-left: 16%;
 	margin-right: 16%;
-	font-size: 15pt;
+	font-size: 15.5pt;
 	letter-spacing: 0.4px;
 	font-weight: 300;
 	line-height: 150%;
@@ -153,11 +153,10 @@ h2.heading2{
 p.aboutMe{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16pt;
-	letter-spacing: 0.6px;
 	font-weight: 400;
 	text-align: justify;
 	color: #6E6E6E;
-	line-height: 175%;
+	line-height: 130%;
 
 }
 

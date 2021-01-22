@@ -151,12 +151,13 @@ h2.heading2{
 	padding-right: 3%;
 }
 p.aboutMe{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16pt;
+	letter-spacing: 0.6px;
 	font-weight: 400;
 	text-align: justify;
 	color: #6E6E6E;
-	line-height: 165%;
-	font-size: 18px;
+	line-height: 175%;
 
 }
 

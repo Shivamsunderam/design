@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?font-family:Source Sans Pro,sans-serif:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?font-family= Source Sans Pro:300,400,500,600,700');
 
 
 
@@ -23,8 +23,8 @@ nav.navbar{
 	font-weight: 700;
 }
 #main{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
 	
 	background-color: #ffffff;
 	padding-bottom: 7%;
@@ -90,7 +90,7 @@ img{
 
 
 .box_text h4{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 13pt;
 	color: green;
 	font-weight: 550;
@@ -102,7 +102,7 @@ img{
 
 
 .box_text h5{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	padding-top: 0%;
 	font-size: 11.2pt;
 	letter-spacing: 0px;
@@ -130,8 +130,8 @@ img.project:hover{
 /* About Page */
 
 h2.heading2{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
 	padding-top: 6%;
 	padding-bottom: 5%;
 }
@@ -151,7 +151,7 @@ h2.heading2{
 	padding-right: 3%;
 }
 p.aboutMe{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	text-align: justify;
 	color: #6E6E6E;

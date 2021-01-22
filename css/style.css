@@ -43,9 +43,9 @@ nav.navbar{
 
 .heading h3{
 	padding-top: 2%;
-	margin-left: 18%;
-	margin-right: 18%;
-	font-size: 15.5pt;
+	margin-left: 16%;
+	margin-right: 16%;
+	font-size: 15pt;
 	letter-spacing: 0.4px;
 	font-weight: 300;
 	line-height: 150%;
@@ -91,8 +91,8 @@ img{
 
 .box_text h4{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 13pt;
-	color: green;
+	font-size: 14pt;
+	color: #323232;
 	font-weight: 600;
 	line-height: 90%;
     padding-top:3%;
@@ -104,7 +104,7 @@ img{
 .box_text h5{
 	font-family: 'Source Sans Pro', sans-serif;
 	padding-top: 0%;
-	font-size: 11.2pt;
+	font-size: 12pt;
 	letter-spacing: 0px;
 	font-weight: 400;
 	color: #92A1AE;

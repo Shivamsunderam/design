@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open Sans:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
 
 
@@ -150,8 +151,8 @@ h2.heading2{
 	padding-right: 3%;
 }
 p.aboutMe{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 	text-align: justify;
 	color: #6E6E6E;
 	line-height: 165%;
